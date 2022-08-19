@@ -1,0 +1,1414 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-weight:100;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Shadows Into Light', cursive ;
+  
+}
+
+body {
+  background: black;
+}
+
+.divider{
+  height: 1px;
+  background: white;
+  position: relative;
+  top: -5rem;
+}
+
+.divider-2{
+  height: 1px;
+  background: white;
+  position: relative;
+  top: 2.5rem;
+}
+
+
+/*================== Inicio =================*/
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: relative;
+  z-index: 2;
+  top: -18rem;
+
+  font-size: 4rem;
+}
+
+
+.button {
+  color: white;
+  font-size: 1rem;
+
+  background: #0E0E0E;
+  border-radius: 0.8rem;
+
+  padding: 1rem 1rem;
+
+  position: relative;
+  z-index: 2;
+  
+
+}
+
+
+.button:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(180, 180, 180);
+} 
+
+
+/*================== Avaliação =================*/
+
+.avaliation {
+  display: flex;
+  gap: 1rem;
+
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem ;
+  
+  justify-content: center;
+  
+  margin-top: -2rem;
+}
+
+.cards {  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  
+}
+
+.card {
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
+
+  background: #0E0E0E;
+  color: white;
+
+  width: 13rem;
+  height: 20rem;
+
+  border: solid white 1px;
+  border-radius: .5rem;
+
+}
+
+.card p {
+  position: relative;
+  top: 1.5rem;
+  font-size: 1.3rem;
+}
+
+
+/* ============== Galeria ===================*/
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
+
+}
+
+.galerry img {
+  width: 18rem;
+  height: 25rem;
+
+  border-radius: 1rem;
+  border: solid white 2px;
+}
+
+.galerry h2 {
+  color: white;
+  font-size: 4rem;
+
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* ============== Footer ===================*/
+
+footer {
+  background: #0E0E0E;
+
+  width: 100%;
+  height: 8rem;
+
+  margin-top: 2rem;
+}
+
+footer h2 {
+  color: white;
+  font-size: 3rem;
+
+  padding: 2rem 1rem 1rem 1rem;
+
+  
+}
+
+footer .contato {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 0.5rem;
+
+color: white;
+
+position: relative;
+right: 2rem;
+bottom: 4rem;
+
+}
+
+footer a {
+  color: white;
+}
+
+
+
+/* ============== SWIPER ===================*/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition:all 500s ease-in;
+}
+
+
+
+
+/* ===================================== Media =========================================*/
+
+@media (max-width: 360px) {
+  .button {
+      color: white;
+      font-size: 1rem;
+    
+      background: #0E0E0E;
+      border-radius: 0.8rem;
+    
+      padding: 1rem 1rem;
+    
+      position: relative;
+      z-index: 2;
+      
+      top: -15rem;
+  
+  }
+
+  .button-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .galerry img {
+    width: 16rem;
+    height: 20rem;
+  
+    border-radius: 1rem;
+    border: solid white 2px;
+  }
+  
+}
+
+
+/* ===================================== Media =========================================*/
+
+@media (min-width:1024px) {
+
+  .divider{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -15rem;
+  }
+  
+  .divider-2{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: 2.5rem;
+  }
+
+
+/*================== Inicio =================*/
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 2;
+    top: -45rem;
+  
+    font-size: 9.5rem;
+    
+  }
+  
+  
+  .button {
+    color: white;
+    font-size: 3rem;
+  
+    background: #0E0E0E;
+    border-radius: 0.8rem;
+  
+    padding: 1rem 1rem;
+  
+    position: relative;
+    z-index: 2;
+    
+    top: -35rem;
+  }
+
+  .button-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*================== Avaliação =================*/
+
+.avaliation {
+  display: flex;
+  gap: 1rem;
+
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem ;
+  
+  justify-content: center;
+  
+  margin-top: -12.5rem;
+}
+
+.cards {  
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.card {
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
+
+  background: #0E0E0E;
+  color: white;
+
+  width: 18rem;
+  height: 24rem;
+
+  border: solid white 1px;
+  border-radius: .5rem;
+
+}
+
+.card p {
+  position: relative;
+  top: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.card h3 {
+  font-size: 2rem;
+}
+
+
+/* ============== Galeria ===================*/
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-items: center;
+
+}
+
+.galerry img {
+  width: 18rem;
+  height: 25rem;
+
+  border-radius: 1rem;
+  border: solid white 2px;
+}
+
+.galerry h2 {
+  color: white;
+  font-size: 4rem;
+
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+
+/* ============== Footer ===================*/
+
+footer {
+  background: #0E0E0E;
+
+  width: 100%;
+  height: 8rem;
+
+  margin-top: 2rem;
+}
+
+footer h2 {
+  color: white;
+  font-size: 3.5rem;
+
+  padding: 1.5rem 1rem 1rem 1rem;
+
+  
+}
+
+footer .contato {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 0.5rem;
+
+color: white;
+
+position: relative;
+right: 2rem;
+bottom: 5rem;
+
+}
+
+footer a {
+  color: white;
+  font-size: 2rem;
+  
+  padding: 0rem 0.5rem 0rem 0.2rem;
+  
+}
+
+footer i {
+  font-size: 1.5rem;
+}
+
+}
+
+/* ===================================== Media =========================================*/
+
+@media (max-width: 320px) {
+
+
+/* ============== Inicio ===================*/
+
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 2;
+    top: -15rem;
+    
+  }
+
+
+  .button {
+    color: white;
+    font-size: 1rem;
+  
+    background: #0E0E0E;
+    border-radius: 0.8rem;
+  
+    padding: 1rem 1rem;
+  
+    position: relative;
+    z-index: 2;
+  
+    top: -13rem;
+
+}
+
+.button-position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ============== Galerry ===================*/
+
+.galerry img {
+  width: 13rem;
+  height: 18rem;
+
+  border-radius: 1rem;
+  border: solid white 2px;
+}
+
+/* ============== Footer ===================*/
+
+footer {
+  background: #0E0E0E;
+
+  width: 100%;
+  height: 8.5rem;
+
+  margin-top: 2rem;
+}
+
+footer h2 {
+  color: white;
+  font-size: 3.5rem;
+
+  padding: 1.5rem 1rem 1rem 1rem;
+
+  
+}
+
+footer .contato {
+display: grid;
+align-items: center;
+justify-content: flex-end;
+gap: 0.1rem;
+
+color: white;
+
+position: relative;
+right: 2rem;
+bottom: 5rem;
+
+height: 0.1rem;
+}
+
+footer a {
+  color: white;
+  font-size: 1.1rem;
+  
+  padding: 0rem 0.5rem 0rem 0.2rem;
+  
+  position: relative;
+  bottom: 3.5rem;
+  right: 0.8rem;
+}
+
+footer i {
+  font-size: 1rem;
+
+  position: relative;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+
+}
+
+/* ===================================== Media =========================================*/
+
+@media (min-width: 375px) {
+
+/* ============== Inicio ===================*/
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 2;
+    top: -15rem;
+    
+  }
+
+
+  .button {
+    color: white;
+    font-size: 1rem;
+  
+    background: #0E0E0E;
+    border-radius: 0.8rem;
+  
+    padding: 1rem 1rem;
+  
+    position: relative;
+    z-index: 2;
+    
+    top: -12rem;
+
+}
+
+.button-position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ============== Galeria ===================*/
+
+.galerry img {
+  width: 13rem;
+  height: 18rem;
+
+  border-radius: 1rem;
+  border: solid white 2px;
+}
+
+
+
+}
+
+/* ===================================== Media =========================================*/
+
+@media (min-width: 425px) {
+
+
+/* ============== Inicio ===================*/
+
+  h1 {
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+
+    position: relative;
+    top: -18rem;
+    
+    color: white;
+    font-size: 5rem;
+  }
+
+
+  .button {
+    color: white;
+    font-size: 1.3rem;
+  
+    background: #0E0E0E;
+    border-radius: 0.8rem;
+  
+    padding: 1rem 1rem;
+  
+    position: relative;
+    z-index: 2;
+  
+    top: -15rem;
+
+}
+
+.button-position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ============== Galeria ===================*/
+
+.galerry img {
+  width: 17rem;
+  height: 22rem;
+
+  border-radius: 1rem;
+  border: solid white 2px;
+}
+
+/* ============== Footer ===================*/
+
+
+
+footer a {
+  color: white;
+  font-size: 1.5rem;
+  
+  padding: 0rem 0.5rem 0rem -0rem;
+  
+  position: relative;
+  bottom: 0.6rem;
+  right: -0.9rem;
+}
+
+footer i {
+  font-size: 1rem;
+
+  position: relative;
+  right: -1rem;
+  bottom: 0.5rem;
+}
+
+}
+
+/* ===================================== Media =========================================*/
+
+@media (min-width: 768px) {
+
+  .divider{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -10rem;
+  }
+  
+  .divider-2{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: 2.5rem;
+  }
+
+
+  /* ============== Inicio ===================*/
+  
+    h1 {
+      display: flex;
+      z-index: 2;
+      justify-content: center;
+  
+      position: relative;
+      top: -33rem;
+      
+      color: white;
+      font-size: 7.5rem;
+    }
+  
+  
+    .button {
+      color: white;
+      font-size: 2rem;
+    
+      background: #0E0E0E;
+      border-radius: 0.8rem;
+    
+      padding: 1rem 1rem;
+    
+      position: relative;
+      z-index: 2;
+      
+      top: -27rem;
+  
+  }
+
+  .button-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*================== Avaliação =================*/
+
+.avaliation {
+  display: flex;
+  gap: 1rem;
+
+  border-radius: 1rem;
+
+  margin-left: 1rem;
+  margin-right: 1rem ;
+  margin-top: -7rem;
+}
+
+.cards {  
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.card {
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
+
+  background: #0E0E0E;
+  color: white;
+
+  width: 16rem;
+  height: 25rem;
+
+  border: solid white 1px;
+  border-radius: .5rem;
+
+}
+
+.card p {
+  position: relative;
+  top: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.card h3 {
+  font-size: 2rem;
+}
+  
+  
+  /* ============== Galeria ===================*/
+  
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-items: center;
+  
+  }
+  
+  .galerry img {
+    width: 15rem;
+    height: 20rem;
+  
+    border-radius: 1rem;
+    border: solid white 2px;
+  }
+  
+  .galerry h2 {
+    color: white;
+    font-size: 4rem;
+  
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* ============== Footer ===================*/
+  
+  
+  
+  footer a {
+    color: white;
+    font-size: 2rem;
+    
+    padding: 0rem 0.5rem 0rem -0rem;
+    
+    position: relative;
+    bottom: 0.8rem;
+    right: -1rem;
+  }
+  
+  footer i {
+    font-size: 1.5rem;
+  
+    position: relative;
+    right: -1rem;
+    bottom: 0.8rem;
+  }
+  
+  }
+
+
+  /* ===================================== Media =========================================*/
+
+@media (min-width: 1024px) {
+
+
+
+  /* ============== Inicio ===================*/
+  
+    h1 {
+      display: flex;
+      z-index: 2;
+      justify-content: center;
+  
+      position: relative;
+      top: -44rem;
+      
+      color: white;
+      font-size: 9rem;
+    }
+  
+  
+    .button {
+      color: white;
+      font-size: 2.5rem;
+    
+      background: #0E0E0E;
+      border-radius: 0.8rem;
+    
+      padding: 1rem 1rem;
+    
+      position: relative;
+      z-index: 2;
+      
+      top: -30rem;
+  
+  }
+
+  .button-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* ============== Footer ===================*/
+
+  footer {
+    background: #0E0E0E;
+  
+    width: 100%;
+    height: 8.5rem;
+  
+    margin-top: 2rem;
+  }
+
+}
+
+/* ===================================== Media =========================================*/
+
+@media (min-width: 1440px) {
+
+  .divider{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -18rem;
+  }
+  
+  .divider-2{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: 2.5rem;
+  }
+
+
+  /* ============== Inicio ===================*/
+  
+    h1 {
+      display: flex;
+      z-index: 2;
+      justify-content: center;
+  
+      position: relative;
+      top: -60rem;
+      
+      color: white;
+      font-size: 12rem;
+      
+    }
+  
+  
+    .button {
+      color: white;
+      font-size: 3rem;
+    
+      background: #0E0E0E;
+      border-radius: 0.8rem;
+    
+      padding: 1rem 1rem;
+    
+      position: relative;
+      z-index: 2;
+      
+      top: -45rem;
+  
+  }
+
+  .button-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*================== Avaliação =================*/
+
+.avaliation {
+  display: flex;
+  gap: 1rem;
+
+  border-radius: 1rem;
+
+  margin-left: 1rem;
+  margin-right: 1rem ;
+  margin-top: -15rem;
+}
+
+.cards {  
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.card {
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
+
+  background: #0E0E0E;
+  color: white;
+
+  width: 25rem;
+  height: 35rem;
+
+  border: solid white 1px;
+  border-radius: .5rem;
+
+}
+
+.card p {
+  position: relative;
+  top: 1.5rem;
+  font-size: 2.4rem;
+}
+
+.card h3 {
+  font-size: 3rem;
+}
+  
+  
+  /* ============== Galeria ===================*/
+  
+  .images {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  
+   padding: 0rem 1rem 0rem 1rem;
+  }
+  
+  .galerry img {
+    width: 20rem;
+    height: 30rem;
+  
+    border-radius: 1rem;
+    border: solid white 2px;
+  }
+  
+  .galerry h2 {
+    color: white;
+    font-size: 4rem;
+  
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+/* ============== Footer ===================*/
+ 
+footer {
+  background: #0E0E0E;
+
+  width: 100%;
+  height: 10rem;
+
+  margin-top: 2rem;
+}
+
+
+footer h2 {
+  color: white;
+  font-size: 4rem;
+
+  padding: 2rem 1rem 1rem 1rem;
+
+}
+
+footer a {
+  color: white;
+  font-size: 2.4rem;
+  
+  padding: 0rem 0.5rem 0rem -0rem;
+  
+  position: relative;
+  bottom: 0.8rem;
+  right: -1rem;
+}
+
+footer i {
+  font-size: 1.9rem;
+
+  position: relative;
+  right: -1rem;
+  bottom: 0.8rem;
+}
+
+}
+
+
+/* ===================================== Media =========================================*/
+
+@media screen and (min-width: 1800px) and (max-width: 1900px) {
+
+  .divider{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -25rem;
+  }
+  
+  .divider-2{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: 2.5rem;
+  }
+
+
+  /* ============== Inicio ===================*/
+  
+    h1 {
+      display: flex;
+      z-index: 2;
+      justify-content: center;
+  
+      position: relative;
+      top: -90rem;
+      
+      color: white;
+      font-size: 15rem;
+      
+    }
+  
+  
+    .button {
+      color: white;
+      font-size: 5rem;
+    
+      background: #0E0E0E;
+      border-radius: 1.5rem;
+    
+      padding: 1rem 1rem;
+    
+      position: relative;
+      z-index: 2;
+      
+      top: -70rem;
+  
+  }
+
+  .button-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*================== Avaliação =================*/
+
+.avaliation {
+  display: flex;
+  gap: 1rem;
+
+  border-radius: 1rem;
+
+  margin-left: 1rem;
+  margin-right: 1rem ;
+  margin-top: -22rem;
+}
+
+.cards {  
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.card {
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
+
+  background: #0E0E0E;
+  color: white;
+
+  width: 30rem;
+  height: 40rem;
+
+  border: solid white 1px;
+  border-radius: .5rem;
+
+}
+
+.card p {
+  position: relative;
+  top: 1.5rem;
+  font-size: 2.9rem;
+}
+
+.card h3 {
+  font-size: 3.8rem;
+}
+  
+  
+  /* ============== Galeria ===================*/
+  
+  .images {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(270px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  
+   padding: 0rem 2rem 0rem 2rem;
+  }
+  
+  .galerry img {
+    width: 30rem;
+    height: 40rem;
+  
+    border-radius: 1rem;
+    border: solid white 2px;
+  }
+  
+  .galerry h2 {
+    color: white;
+    font-size: 14rem;
+  
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+/* ============== Footer ===================*/
+ 
+footer {
+  background: #0E0E0E;
+
+  width: 100%;
+  height: 20rem;
+
+  margin-top: 2rem;
+}
+
+
+footer h2 {
+  color: white;
+  font-size: 7rem;
+
+  padding: 4rem 1rem 1rem 2rem;
+
+}
+
+footer .contato {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  
+  color: white;
+  
+  position: relative;
+  right: 5rem;
+  bottom: 7rem;
+  
+  }
+
+
+footer a {
+  color: white;
+  font-size: 3.8rem;
+  
+  padding: 0rem 1rem 0rem 4rem;
+  
+  position: relative;
+  bottom: 0.8rem;
+  right: -1rem;
+}
+
+footer i {
+  font-size: 2.8rem;
+
+  position: relative;
+  right: -4rem;
+  bottom: 0.8rem;
+}
+
+
+
+}
+
+
+/* ===================================== Media =========================================*/
+
+@media (min-width: 2560px) {
+
+  .divider{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: -38rem;
+  }
+  
+  .divider-2{
+    height: 1px;
+    background: white;
+    position: relative;
+    top: 2.5rem;
+  }
+
+
+  /* ============== Inicio ===================*/
+  
+    h1 {
+      display: flex;
+      z-index: 2;
+      justify-content: center;
+  
+      position: relative;
+      top: -130rem;
+      
+      color: white;
+      font-size: 20rem;
+      
+    }
+  
+  
+    .button {
+      color: white;
+      font-size: 8rem;
+    
+      background: #0E0E0E;
+      border-radius: 1.5rem;
+    
+      padding: 1rem 1rem;
+    
+      position: relative;
+      z-index: 2;
+      
+      display: flex;
+      justify-content: center;
+      
+      height: 15rem;
+      width: 80rem;
+      top: -100rem;
+  
+  }
+
+  .button-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*================== Avaliação =================*/
+
+.avaliation {
+  display: flex;
+  gap: 1rem;
+
+  border-radius: 1rem;
+
+  margin-left: 1rem;
+  margin-right: 1rem ;
+  margin-top: -35rem;
+}
+
+.cards {  
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.card {
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
+
+  background: #0E0E0E;
+  color: white;
+
+  width: 35rem;
+  height: 50rem;
+
+  border: solid white 1px;
+  border-radius: .5rem;
+
+}
+
+.card p {
+  position: relative;
+  top: 1.5rem;
+  font-size: 3.5rem;
+}
+
+.card h3 {
+  font-size: 4.5rem;
+}
+  
+  
+  /* ============== Galeria ===================*/
+  
+  .images {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  
+   padding: 0rem 2rem 0rem 2rem;
+  }
+  
+  .galerry img {
+    width: 40rem;
+    height: 50rem;
+  
+    border-radius: 1rem;
+    border: solid white 2px;
+  }
+  
+  .galerry h2 {
+    color: white;
+    font-size: 14rem;
+  
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+/* ============== Footer ===================*/
+ 
+footer {
+  background: #0E0E0E;
+
+  width: 100%;
+  height: 20rem;
+
+  margin-top: 2rem;
+}
+
+
+footer h2 {
+  color: white;
+  font-size: 8rem;
+
+  padding: 4rem 1rem 1rem 2rem;
+
+}
+
+footer .contato {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  
+  color: white;
+  
+  position: relative;
+  right: 5rem;
+  bottom: 10rem;
+  
+  }
+
+
+footer a {
+  color: white;
+  font-size: 4.8rem;
+  
+  padding: 0rem 1rem 0rem 4rem;
+  
+  position: relative;
+  bottom: 0.8rem;
+  right: -1rem;
+}
+
+footer i {
+  font-size: 3.8rem;
+
+  position: relative;
+  right: -4rem;
+  bottom: 0.8rem;
+}
+
+}
